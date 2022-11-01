@@ -1,0 +1,275 @@
+body {
+    background-image:url("background.jpg");
+    /* background-color: beige; */
+}
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;  
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    Box-sizing: border-box;
+}
+button {
+    float:right;
+       background-color: #48d1cc;
+       color: white;
+       padding: 14px 20px;
+       margin: 8px 0;
+       border: none;
+       cursor: pointer;
+       width: 100%;
+}
+.cancelbtn {
+      width: auto;
+      padding: 10px 18px;
+      background-color: #4682b4;
+}
+
+.imgcontainer {
+     text-align: center;
+     margin: 24px 0 12px 0;
+     position: relative;
+}
+
+img.avatar {
+      width: 10%;
+      Border-radius: 5%;
+}
+.container {
+      Padding: 16px;
+}
+Span.psw {
+       float: right;
+       Padding-top: 16px;
+}
+.modal {
+     display: none;
+     position: fixed;
+     z-index: 1;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+     background-color: black;
+     padding-top: 60px;
+}
+.modal-content {
+     background-color:white;
+     margin: 5% auto 15% auto;
+     border: 1px solid #888;
+     width: 40%;
+     height: 80%;
+}
+
+.close {
+     Position: absolute;
+     Right: 25px;
+     Top: 0;
+     Color: #000;
+     Font-size: 35px;
+     Font-weight: bold;
+}
+.close:hover,
+.close:focus {
+     color: red;
+     cursor: pointer;
+}
+.animate {
+  -webkit-animation: animatezoomi 0.6s;
+ animation: animatezoomi 0.6s
+}
+@-webkit-keyframes animatezoomi {
+   from {-webkit-transform: scale(0)}
+   to {-webkit-transform: scale(1)}
+}
+@keyframes animatezoomi {
+   from {transform: scale(0)}
+   to {transform: scale(1)}
+} 
+/* @media screen and(max-width: 300px){
+    span.psw {
+      display: block;
+      float: none;
+    }
+     .cancelbtn {
+          width: 100%;
+    }
+} */
+
+
+/* stop here */
+a {
+    text-decoration: none;
+}
+
+.head {
+    background-color: darkcyan;
+    color: white;
+    position: relative;
+    margin: 0px;
+    text-align: center;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    float: left;
+    position: fixed;
+    padding: 0px;
+}
+
+li {
+    background-color: lightblue;
+    padding: 15px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: white;
+    box-shadow: 0 3px 14px darkcyan, 0 12px 15px black;
+}
+
+li:hover {
+    background-color: white;
+}
+.fit{
+    text-align: center;
+}
+
+.center {
+    background-color: white;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: 0 1px 3px lightblue, 0 1px 2px lightblue;
+    width: 700px;
+    height: 500px;
+    align-items: center;
+}
+
+.right {
+    background-color: lightblue;
+    color: white;
+    /* position: fixed; */
+    right: 50px;
+    width: 220px;
+    height: 300px;
+    border: 3px solid lightblue;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px lightblue, 0 1px 2px lightblue;
+    float: right;
+    margin-top: 50px;}
+
+
+.rgt{
+    float:right;
+}
+
+.down {
+    padding: 10px 0px 0px 0px;
+    bottom: -0.25%;
+    width: 100%;
+    /* Height of the footer*/
+    height: 40px;
+    background-color: lightblue;
+    position: fixed;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.px{
+    flex:content;
+    width: 0px;
+    height: 0px;
+    object-fit:cover;
+    border-radius: 1%;
+}
+#native{
+    background-image:url("wm4.png");
+}
+.nw{
+    padding: 2%;
+    width: 530px;
+    height:900px;
+    background-color: lightblue;
+    color: black;
+    font-size: larger;
+    float:right;
+
+}
+
+.pn{
+    position: absolute;
+    padding: 1px;
+    width: 500px;
+    height:200px;
+    text-align: justify;
+
+}
+
+h1{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+#casual{
+    background-image:url("wm4.png");
+}
+
+.casp{
+    padding:2%;
+    float: right;
+}
+
+
+
+
+#niger{
+    background-image:url("wm3.png");
+}
+.nimg{
+
+    flex-direction: row;
+    align-items: center;
+}
+
+.clum{
+    float:left;
+    width:33%;
+    padding: 3%;
+}
+.row{
+    padding: 3%;
+}
+
+.row::after{
+    content:"";
+    clear: both;
+    display:table;
+}
+
+
+
+
+#english{
+    background-image: url("wm2.png");
+}
+
+.enpix{
+    padding: 5%;
+}
+
+#en{
+    padding: 3%;
+    float:right;
+}
+
+
+
+
+    
